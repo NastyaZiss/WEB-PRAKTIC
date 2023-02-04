@@ -1,0 +1,37 @@
+body {
+  background-image: url("../img/y.jpg");
+}
+.container {
+  margin: 0 auto;
+}
+
+.text {
+  font-weight: 900;
+  color: brown;
+  font-size: 20px;
+  margin: 0;
+}
+.one__table th {
+  color: brown;
+  background-color: rgb(163, 163, 163);
+}
+.one__table {
+  border: 6px outset rgb(163, 163, 163);
+}
+.one__table tr {
+  font-weight: 900;
+}
+.one__table tr,
+td,
+th {
+  /*border: 1px solid grey;*/
+  padding: 3px; /* Поля вокруг содержимого ячеек */
+  border: 2px groove #ccc; /* Граница между ячейками */
+}
+a {
+  text-decoration: none;
+  color: brown;
+}
+a:hover {
+  color: #69108a;
+}
