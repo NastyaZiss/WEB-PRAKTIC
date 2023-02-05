@@ -258,7 +258,6 @@ body {
 .container-10 {
   position: absolute;
   top: 1400px;
-  
 }
 .container-10__elements {
   position: relative;
@@ -345,3 +344,133 @@ body {
   height: 10px;
   background-color: white;
 }
+/*/ ////////////////////////////////////////////*/
+.container-12 {
+  position: absolute;
+  top: 1900px;
+}
+.container-12__elements {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-color: yellow;
+  border: 1px solid yellow;
+  border-radius: 50%;
+}
+#container-12__elem1 {
+  position: absolute;
+  left: 50px;
+  top: 70px;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50px;
+}
+#container-12__elem2 {
+  position: absolute;
+  right: 50px;
+  top: 70px;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+#container-12__elem3 {
+  position: absolute;
+  left: 160px;
+  top: 170px;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+#container-12__elem4 {
+  position: absolute;
+  left: 120px;
+  bottom: 50px;
+  width: 160px;
+  height: 10px;
+  background-color: #7b2121;
+  border-radius: 50%;
+  transform-origin: center left;
+  /*clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);*/
+}
+
+/*--------------------------------------------------------*/
+.container-12 {
+  position: absolute;
+  top: 1900px;
+}
+.container-12__elements {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-color: yellow;
+  border: 1px solid yellow;
+  border-radius: 50%;
+}
+#container-12__elem1 {
+  position: absolute;
+  left: 50px;
+  top: 70px;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50px;
+  z-index: 5;
+}
+#container-12__elem2 {
+  position: absolute;
+  right: 50px;
+  top: 70px;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50px;
+  z-index: 5;
+}
+
+/*#container-12__elem3 {
+  position: absolute;
+  left: 160px;
+  top: 170px;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(98, 165, 39);
+  border-radius: 50px;
+}*/
+.smile {
+}
+.noise {
+  background-color: #ffffff;
+  position: absolute;
+  left: 165px;
+  top: 200px;
+  width: 70px;
+  height: 70px;
+  z-index: 5;
+  border-radius: 35px;
+}
+.mouth1 {
+  background-color: #ffffff;
+  position: absolute;
+  left: 100px;
+  top: 155px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  z-index: 1;
+}
+.mouth2 {
+  background-color: yellow;
+  position: absolute;
+  left: 50px;
+  top: 30px;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  z-index: 2;
+}
+ 
