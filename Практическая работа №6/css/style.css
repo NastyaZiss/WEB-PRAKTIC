@@ -205,31 +205,52 @@ body {
 }
 /*/ ////////////////////////////////////////////*/
 .container-8 {
+position: absolute;
+top: 900px;
+}
+.container-8__elements{
+  position: relative;
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  border: 1px solid green;
+}
+#container-8__elem1{
+  border: 1px solid red;
+  position: absolute; 
+  left: 100px;
+  top: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+/*/ ////////////////////////////////////////////*/
+.container-9 {
   position: absolute;
   top: 300px;
   left: 300px;
 }
-#container-5__elem1,
-#container-5__elem2,
-#container-5__elem3 {
+#container-9__elem1,
+#container-9__elem2,
+#container-9__elem3 {
   width: 50px;
   height: 50px;
   position: absolute;
 }
-#container-5__elem1 {
+#container-9__elem1 {
   border: 1px solid red;
   left: 30px;
   top: 30px;
   background-color: red;
 }
-#container-5__elem2 {
+#container-9__elem2 {
   border: 1px solid blue;
   left: 60px;
   top: 60px;
   background-color: blue;
   z-index: 1;
 }
-#container-5__elem3 {
+#container-9__elem3 {
   border: 1px solid green;
   left: 90px;
   top: 90px;
