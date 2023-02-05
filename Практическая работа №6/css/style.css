@@ -26,7 +26,8 @@ body {
 }
 /*/////////////////////////////////////////////*/
 .container-2 {
-  margin-top: 300px;
+  position: absolute;
+  left: 300px;
 }
 #container-2__elem1,
 #container-2__elem2,
@@ -47,3 +48,91 @@ body {
   border: 1px solid green;
   left: 170px;
 }
+/*/ ////////////////////////////////////////////*/
+.container-3 {
+  position: absolute;
+  left: 600px;
+}
+#container-3__elem1,
+#container-3__elem2,
+#container-3__elem3 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+#container-3__elem1 {
+  border: 1px solid red;
+  left: 30px;
+  top: 30px;
+}
+#container-3__elem2 {
+  border: 1px solid blue;
+  left: 60px;
+  top: 60px;
+}
+#container-3__elem3 {
+  border: 1px solid green;
+  left: 90px;
+  top: 90px;
+}
+/*/ ////////////////////////////////////////////*/
+.container-4 {
+  position: absolute;
+  top: 300px;
+}
+#container-4__elem1,
+#container-4__elem2,
+#container-4__elem3 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+#container-4__elem1 {
+  border: 1px solid red;
+  left: 30px;
+  top: 30px;
+  background-color: red;
+}
+#container-4__elem2 {
+  border: 1px solid blue;
+  left: 60px;
+  top: 60px;
+  background-color: blue;
+}
+#container-4__elem3 {
+  border: 1px solid green;
+  left: 90px;
+  top: 90px;
+  background-color: green;
+}
+/*/ ////////////////////////////////////////////*/
+.container-5 {
+    position: absolute;
+    top: 300px;
+  }
+  #container-5__elem1,
+  #container-5__elem2,
+  #container-5__elem3 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+  }
+  #container-5__elem1 {
+    border: 1px solid red;
+    left: 30px;
+    top: 30px;
+    background-color: red;
+  }
+  #container-5__elem2 {
+    border: 1px solid blue;
+    left: 60px;
+    top: 60px;
+    background-color: blue;
+  }
+  #container-5__elem3 {
+    border: 1px solid green;
+    left: 90px;
+    top: 90px;
+    background-color: green;
+  }
+  
