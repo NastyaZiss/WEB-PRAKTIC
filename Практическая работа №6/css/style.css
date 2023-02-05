@@ -1,5 +1,5 @@
 body {
-  height: 250px;
+  min-height: 100%;
 }
 
 #container-1__elem1,
@@ -205,19 +205,19 @@ body {
 }
 /*/ ////////////////////////////////////////////*/
 .container-8 {
-position: absolute;
-top: 900px;
+  position: absolute;
+  top: 900px;
 }
-.container-8__elements{
+.container-8__elements {
   position: relative;
   width: 500px;
   height: 400px;
   margin: 0 auto;
   border: 1px solid green;
 }
-#container-8__elem1{
+#container-8__elem1 {
   border: 1px solid red;
-  position: absolute; 
+  position: absolute;
   left: 100px;
   top: 100px;
   width: 100px;
@@ -227,32 +227,73 @@ top: 900px;
 /*/ ////////////////////////////////////////////*/
 .container-9 {
   position: absolute;
-  top: 300px;
-  left: 300px;
+  top: 900px;
+  left: 550px;
 }
-#container-9__elem1,
-#container-9__elem2,
-#container-9__elem3 {
-  width: 50px;
-  height: 50px;
-  position: absolute;
+.container-9__elements {
+  position: relative;
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  border: 1px solid green;
+  background-color: green;
 }
 #container-9__elem1 {
-  border: 1px solid red;
-  left: 30px;
-  top: 30px;
-  background-color: red;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: white;
 }
 #container-9__elem2 {
-  border: 1px solid blue;
-  left: 60px;
-  top: 60px;
-  background-color: blue;
-  z-index: 1;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: white;
 }
-#container-9__elem3 {
-  border: 1px solid green;
-  left: 90px;
-  top: 90px;
+/*/ ////////////////////////////////////////////*/
+.container-10 {
+  position: absolute;
+  top: 1400px;
+  
+}
+.container-10__elements {
+  position: relative;
+  width: 200px;
+  height: 430px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+#container-10__elem1 {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+#container-10__elem2 {
+  position: absolute;
+  left: 50px;
+  top: 160px;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+#container-10__elem3 {
+  position: absolute;
+  left: 50px;
+  top: 270px;
+  width: 100px;
+  height: 100px;
   background-color: green;
+  border: 1px solid black;
+  border-radius: 50px;
 }
